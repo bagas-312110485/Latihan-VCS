@@ -37,3 +37,13 @@ $git init
 Untuk membuat file dapat menggunakan Text Editor, Lalu menyimpan filenya pada repository. Sebagai contoh disini saya akan membuat file README.md dengan perintah berikut
 ![Screenshot (70)](https://user-images.githubusercontent.com/92848203/138758793-a6f80b8a-ee61-4e40-b363-3f122d87e253.png)
 
+$echo "Latihan-VCS" >> README.md
+
+Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m "nama project" Dan yang ada di dalam tanda kutip " " itu nama project kita dan jangan sama setiap kali kita upload project
+$git commit -m "First Project" Untuk menyimpan setiap perubahan pada repository local, gunakan perintah git remote add origin (url) git remote add origin https://github.com/bagas-312110485/Latihan-VCS.git
+
+$git branch -M main
+Untuk mengirim perubahan pada repository local ke server, gunakan perintah git push Perintah ini akan meminta Username dan Password pada akun github mu
+![Screenshot (72)](https://user-images.githubusercontent.com/92848203/138759585-d70831cf-0c33-422b-8bdb-62cd20af615e.png)
+
+# Selesai
